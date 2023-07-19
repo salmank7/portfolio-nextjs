@@ -8,6 +8,7 @@ const skills = [
   { name: "react", icon: "devicon-react-original" },
   { name: "nextjs", icon: "devicon-nextjs-line" },
   { name: "javascript", icon: "devicon-javascript-plain" },
+  { name: "Bootstrap", icon: "devicon-css3-plain" },
   { name: "typescript", icon: "devicon-typescript-original" },
   { name: "sass", icon: "devicon-sass-original" },
   { name: "tailwind", icon: "devicon-tailwindcss-plain" },
@@ -43,7 +44,7 @@ const About = () => {
                 <i className={`${skill.icon} colored text-[2.5rem] md:text-[3.5rem] mx-auto`}/>
                 <p className="text-sm uppercase text-center">{skill.name}</p>
               </div>
-              <div className="absolute bottom-1 right-2">
+              <div className="absolute bottom-0 right-1">
               {skill.id}
               </div>
            </div>

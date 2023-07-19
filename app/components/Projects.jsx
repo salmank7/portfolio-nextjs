@@ -11,12 +11,37 @@ const projectsListing = [
     imgSrc: "/project1.png",
     overlay: "Airbnb Clone",
     desc: "A full Airbnb Clone with User's Authentication and product listing functionality",
-    overlayClr: 'bg-black/70',
-    hoverClr: "bg-[#1F3D6A]",
+    overlayClr: 'bg-gray-600/40',
+    hoverClr: "bg-[#d3344f]",
     deps: ["NEXTJS", "REACTJS", "MONGODB","NEXT-AUTH", "PRISMA", "TAILWINDCSS"],
     demoLink: 'https://rent-a-dream.vercel.app/',
-    githubLink:'https://github.com/salmank7/nextjs-13-airbnb-clone'
-  }
+    githubLink:'https://github.com/salmank7/nextjs-13-airbnb-clone',
+    depsText: 'text-white'
+  },
+  {
+    id: 2,
+    imgSrc: "/project2.webp",
+    overlay: "C-Zone frontend",
+    desc: "a fully responsive frontend of ecommerece app",
+    overlayClr: 'bg-gray-600/40',
+    hoverClr: "bg-[#0C4A79]",
+    deps: [ "REACTJS", "TAILWINDCSS", "REACT-ROUTER", "REACT-ROUTER-DOM"],
+    demoLink: 'https://vocal-alfajores-4f2b46.netlify.app',
+    githubLink:'https://github.com/salmank7/czone-tailwind',
+    depsText: 'text-white'
+  },
+  {
+    id: 3,
+    imgSrc: "/project3.png",
+    overlay: "Crptoart",
+    desc: "a fully responsive frontend static landing page of nfts",
+    overlayClr: 'bg-gray-300/40',
+    hoverClr: "bg-[#0C4A79]",
+    deps: [ "HTML", "TAILWINDCSS", "REACT-SLICK", "JAVASCRI[T", "WEBPACK"],
+    demoLink: 'https://crypt-art.netlify.app/',
+    githubLink:"https://github.com/salmank7/crypto-nft",
+    depsText: 'text-white'
+  },
 ]
 
 
@@ -28,7 +53,7 @@ const Projects = () => {
             <Heading title="Projects" number="2."/>
             <div className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 min-h-screen">
                 {projectsListing.map((project)=>(
-                  <ProjectBox key={project.id} imgSrc={project.imgSrc} overlay={project.overlay} description={project.desc} overlayColor={project.overlayClr} hoverColor={project.hoverClr} deps={project.deps} githubLink={project.githubLink} demoLink={project.demoLink}  />
+                  <ProjectBox key={project.id} imgSrc={project.imgSrc} overlay={project.overlay} depsText={project.depsText} description={project.desc} overlayColor={project.overlayClr} hoverColor={project.hoverClr} deps={project.deps} githubLink={project.githubLink} demoLink={project.demoLink}  />
                 ))}
             </div>
         </Container>
