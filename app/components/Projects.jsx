@@ -21,7 +21,7 @@ const projectsListing = [
   {
     id: 2,
     imgSrc: "/project2.webp",
-    overlay: "C-Zone frontend",
+    overlay: "CZone frontend",
     desc: "a fully responsive frontend of ecommerece app",
     overlayClr: 'bg-gray-600/40',
     hoverClr: "bg-[#0C4A79]",
@@ -33,11 +33,11 @@ const projectsListing = [
   {
     id: 3,
     imgSrc: "/project3.png",
-    overlay: "Crptoart",
-    desc: "a fully responsive frontend static landing page of nfts",
+    overlay: "Cryptoart",
+    desc: "a fully responsive frontend static landing page of NFTs",
     overlayClr: 'bg-gray-300/40',
-    hoverClr: "bg-[#0C4A79]",
-    deps: [ "HTML", "TAILWINDCSS", "REACT-SLICK", "JAVASCRI[T", "WEBPACK"],
+    hoverClr: "bg-[#aa1e7c]",
+    deps: [ "HTML", "TAILWINDCSS", "REACT-SLICK", "JAVASCRIPT", "WEBPACK"],
     demoLink: 'https://crypt-art.netlify.app/',
     githubLink:"https://github.com/salmank7/crypto-nft",
     depsText: 'text-white'

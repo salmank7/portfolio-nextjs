@@ -25,9 +25,9 @@ const ProjectBox = ({
         <div
           className={`absolute text-black inset-0 ${overlayColor} group-hover:hidden flex gap-4 flex-col items-center justify-center text-4xl  font-bold rounded-2xl`}
         >
-          <div className="w-full flex flex-col items-center justify-center text-center min-h-[95px] text-white bg-black/70 py-2">
-            <div className="">{overlay}</div>
-            <p className="text-sm text-center px-[12px]">{description}</p>
+          <div className="w-full flex flex-col gap-y-2 items-center justify-center text-center min-h-[95px] text-white bg-black/70 py-2">
+            <div className="text-2xl md:text-3xl">{overlay}</div>
+            <p className="text-sm text-center text-gray-gray-200 px-[12px]">{description}</p>
           </div>
         </div>
         <div
@@ -37,7 +37,7 @@ const ProjectBox = ({
             <div className="p-2 text-md flex gap-4 flex-wrap items-center justify-center text-center">
               {deps.map((dep) => (
                 <p
-                  className={`hover:border-black hover:bg-black ${depsText} hover:text-white border p-2 rounded-md text-sm md:text-md text-center`}
+                  className={`hover:border-black hover:bg-black ${depsText} hover:text-white border-2 font-bold p-2 rounded-md text-sm md:text-md text-center`}
                   key={0}
                 >
                   {dep}

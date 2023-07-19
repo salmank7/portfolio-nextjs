@@ -8,7 +8,7 @@ const skills = [
   { name: "react", icon: "devicon-react-original" },
   { name: "nextjs", icon: "devicon-nextjs-line" },
   { name: "javascript", icon: "devicon-javascript-plain" },
-  { name: "Bootstrap", icon: "devicon-css3-plain" },
+  { name: "Bootstrap", icon: "devicon-css3  -plain" },
   { name: "typescript", icon: "devicon-typescript-original" },
   { name: "sass", icon: "devicon-sass-original" },
   { name: "tailwind", icon: "devicon-tailwindcss-plain" },
